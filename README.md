@@ -15,3 +15,5 @@
 * There is a restart button in the top of the game. To help the gamer, restart the game from begining if he/she is stuck somewhere.
 
 * The moves bar calculates the number of moves the gamer used to solve the puzzle and win the game.  
+
+* Combining all the features, A futuristic game is there. 
