@@ -4,7 +4,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-![alt](https://media.giphy.com/media/TJ9zO6nJtNPzBWammS/giphy.gif)
+![alt](https://media.giphy.com/media/fZYK6hb6ExLREoq1Fq/giphy.gif)
 
 ## ***Parts of the Game*** 
 * There are 16 cards in the deck.
@@ -14,6 +14,10 @@
 * There is a restart button in the top of the game. To help the gamer, restart the game from begining if he/she is stuck somewhere.
 
 * The moves bar calculates the number of moves the gamer used to solve the puzzle and win the game.
+
+## ***Known Bugs***
+
+* Sometimes 3 cards get clicked at once.
 
 ## ***Planned Changes*** 
 
