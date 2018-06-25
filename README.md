@@ -17,9 +17,6 @@
 
 ![alt](https://github.com/GagaBrar/memorygame/blob/master/win1223.PNG?raw=true)
 
-## ***Known Bugs***
-
-* Sometimes 3 cards get clicked at once.
 
 ## ***Planned Changes*** 
 
