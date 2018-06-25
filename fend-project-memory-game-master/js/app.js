@@ -10,23 +10,24 @@ const winning = document.getElementById("won"); //to get the page congratulating
 
 //This select function is to open the card when it is clicked.
 function select(e) {
+    if (card.length !== 2 ) {
     if (
         e.target.classList == ("card")) {
         e.target.classList.add("open", "show");
         card.push(e.target);
-
-        if (card.length == 2) {
+        
+        if (card.length == 2 ) {
 
             setTimeout(function () {
 
 
                 //This is to check if two cards match or not.
-                if (card[0].innerHTML == card[1].innerHTML) {
+                if (card[0].innerHTML === card[1].innerHTML) {
                     card[0].classList.add('match');
                     card[1].classList.add("match");
                     card.length = 0;
                     match();
-                } else if (card[0].innerHTML != card[1].innerHTML) {
+                } else if (card[0].innerHTML !== card[1].innerHTML) {
                     card[0].classList.remove("open", "show");
                     card[1].classList.remove("open", "show");
                     card.length = 0;
@@ -53,8 +54,12 @@ function select(e) {
                 //    cardSave =document.querySelectorAll(shuffledCards);
             })
         }
+        else{
+            console.log("sorry no more clicks")
+        }
     }
 };
+}
 const selectit = document.body.addEventListener("click", select);
 // This is the main eventlistener which executes the main function which opens the cards, closes the cards, matches the cards.
 function match() {
